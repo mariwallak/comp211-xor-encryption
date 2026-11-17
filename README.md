@@ -14,3 +14,13 @@ This repository documents an exploration of simple encryption using the bitwise 
 * **The Toggle Switch Property:** XOR acts as a two-way bit mask. Applying the key once toggles specific bits to encrypt it, and applying the exact same key a second time restores the original data with zero loss (decrypts perfectly).
 * **Vulnerability to Key Reuse:** With repeating keys, an interceptor can easily recover the key using known-plaintext attacks ($\text{Plaintext} \oplus \text{Ciphertext} = \text{Key}$).
 * **Foundation of Modern Ciphers:** While standalone repeating-key XOR is insecure, XOR is the core engine inside modern protocols like AES and ChaCha20 which use random key generators.
+
+## Code Example & Execution
+
+This project includes a Python script (`xor_encryption.py`) demonstrating repeating-key XOR encryption and decryption.
+
+### How to Run:
+1. Ensure Python 3 is installed.
+2. Run the script from your terminal:
+   ```bash
+   python3 xor_encryption.py
