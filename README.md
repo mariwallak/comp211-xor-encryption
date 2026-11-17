@@ -24,3 +24,8 @@ This project includes a Python script (`xor_encryption.py`) demonstrating repeat
 2. Run the script from your terminal:
    ```bash
    python3 xor_encryption.py
+
+## Additional Resources
+- COMP 211 Course Materials on Bitwise Operators (`&`, `|`, `^`, `~`)
+- Claude Shannon, *Communication Theory of Secrecy Systems* (Mathematical foundations of symmetric ciphers and the One-Time Pad)
+- Python Standard Library Documentation (`itertools.cycle`, `bytes`)
